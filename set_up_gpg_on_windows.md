@@ -2,12 +2,18 @@
   GPG Encryption Tutorial (for Windows)
 =========================================
 
-{ work in progress }
+[for_ubuntu]: https://github.com/WoodrowShigeru/random-tutorials/blob/master/set_up_gpg_on_ubuntu.md
+[wiki_pgp]: https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP
+[wiki_gpg]: https://en.wikipedia.org/wiki/GNU_Privacy_Guard
+[gpg_official]: https://www.gpg4win.org/
 
-- What is it?
-- Installation
-- Importing someone's public key
-- Usage
+
+- [What is it?](#user-content-what-is-it)
+- [Installation](#user-content-installation)
+- [Import someone's public key](#user-content-import-someones-public-key)
+- [Encrypt a file](#user-content-encrypt-a-file)
+- [Decrypt a file](#user-content-decrypt-a-file)
+- [See also](#user-content-see-also)
 
 
 This tutorial covers the usage of GPG.
@@ -15,8 +21,8 @@ This tutorial covers the usage of GPG.
 - *PGP* is an encryption software released in 1991.
 - *GPG* is an encryption software by someone else released in 1999.
 - *OpenPGP* is an encryption method.
-- https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP
-- https://en.wikipedia.org/wiki/GNU_Privacy_Guard
+- [Wikipedia: Pretty Good Privacy][wiki_pgp]
+- [Wikipedia: GNU Privacy Guard][wiki_gpg]
 
 
 
@@ -36,9 +42,7 @@ Think of it like a treasure chest with one lock for each allowed person – exce
 
 Installation
 ------------
-
-- Navigate to https://www.gpg4win.org/
-- Download and execute the installer.
+- [Download][gpg_official] and execute the installer.
 - Select "Donate no money" if you so wish.
 - During that installation (there is a checkbox) also install Kleopatra which provides a nice GUI.
 
@@ -50,19 +54,35 @@ Installation
 
 - Never give away the private key!
 
-
-
-Importing someone's public key
-------------------------------
-
-- If you receive other people's public keys, you can manage them here in Kleopatra.
+- But do give away the public key to whoever you want to communicate with. That's why it's handy to have them already exported as files.
 
 
 
-Usage
------
-- But do give away the public key unencrypted to whoever you want to communicate with. The public key usually needs to be sent only once for every new contact.
-- Choose a sample file to test the encryption with.
-- Right-click on file, select "Sign and verify" and then choose a contact from the list managed in Kleopatra.
-- That gpg file can be sent – even with the public key in the same mail.
+Import someone's public key
+---------------------------
+- In Kleopatra, select "Import" and select a given asc file (usually asc).
+- Ask for and compare the fingerprint, if you feel especially insecure.
+- Once finished importing, the recipient becomes available for encrypting files.
+
+
+
+Encrypt a file
+--------------
+- Right-click on the file you wish to encrypt, select "Sign and verify" and then choose a contact from the list managed in Kleopatra.
+- Possibly the passphrase needs to be entered as well.
+- Send that gpg file, i.e. as email attachment. It can even be sent with the public key in the same mail.
+
+
+
+Decrypt a file
+--------------
+- In Windows it is as comfortable as double-clicking the gpg file. The Kleopatra popup might appear somewhere in the background.
+- Select a directory to save the content and decrypt.
+- Possibly the passphrase needs to be entered as well.
+
+
+
+See also
+--------
+- [Tutorial for Ubuntu][for_ubuntu]
 
