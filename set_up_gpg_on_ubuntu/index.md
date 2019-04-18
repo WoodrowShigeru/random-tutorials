@@ -13,6 +13,8 @@
 - [See also](#user-content-see-also)
 
 
+------
+
 See the [Windows tutorial][for_windows] for an introduction of PGP, GPG, OpenPGP, or for a more comprehensible description of the overall process.
 
 (Instructional commands starting with `$` mean that you should enter the part behind that in a terminal.)

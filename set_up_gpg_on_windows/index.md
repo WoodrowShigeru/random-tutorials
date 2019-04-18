@@ -16,6 +16,8 @@
 - [See also](#user-content-see-also)
 
 
+------
+
 This tutorial covers the usage of GPG.
 
 - *PGP* is an encryption software released in 1991.
