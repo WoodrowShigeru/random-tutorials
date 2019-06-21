@@ -2,7 +2,7 @@
   GPG Encryption Tutorial (for Ubuntu 18.04.2)
 ================================================
 
-[for_windows]: https://github.com/WoodrowShigeru/random-tutorials/blob/master/set_up_gpg_on_windows.md
+[for_windows]: https://github.com/WoodrowShigeru/random-tutorials/blob/master/set_up_gpg_on_windows/index.md
 [guide]: https://help.ubuntu.com/community/GnuPrivacyGuardHowto
 
 

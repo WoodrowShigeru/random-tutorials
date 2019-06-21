@@ -2,7 +2,7 @@
   GPG Encryption Tutorial (for Windows)
 =========================================
 
-[for_ubuntu]: https://github.com/WoodrowShigeru/random-tutorials/blob/master/set_up_gpg_on_ubuntu.md
+[for_ubuntu]: https://github.com/WoodrowShigeru/random-tutorials/blob/master/set_up_gpg_on_ubuntu/index.md
 [wiki_pgp]: https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP
 [wiki_gpg]: https://en.wikipedia.org/wiki/GNU_Privacy_Guard
 [gpg_official]: https://www.gpg4win.org/
