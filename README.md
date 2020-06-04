@@ -1,7 +1,6 @@
 
 # Random Tutorials #
 
-2
 Here are a bunch of brief tutorials for a selection of topics, intended for people who have never heard of them before, as well as anyone forgetful of the details.
 
 
