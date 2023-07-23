@@ -122,7 +122,7 @@ This generates a `my-important-file.txt.gpg` in `my/path/`. Attach this file to 
 Decrypt a file
 --------------
 ```
-gpg -d --output my-important-file.txt.gpg my-important-file.txt
+gpg -d --output my-important-file.txt my-important-file.txt.gpg
 ```
 
 Possibly the passphrase needs to be entered as well.
