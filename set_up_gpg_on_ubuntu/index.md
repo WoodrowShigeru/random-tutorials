@@ -57,6 +57,7 @@ Setup
   $ cd ~/.gpg-backup
   $ gpg -ao my-public-key.asc --comment "My comment" --export $GPGKEY
   $ gpg -o my-private-key.key --export-secret-keys $GPGKEY
+  $ sudo chmod 400 my-private-key.key
 ```
 
 
