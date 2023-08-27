@@ -1,2 +1,3 @@
-/random-tutorials.sublime-project
-/random-tutorials.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+*.pin.md
