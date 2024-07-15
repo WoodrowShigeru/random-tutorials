@@ -101,17 +101,19 @@ When toggling the layout, you cycle through predefined layouts. I.e. when there 
 Hotkey | Description | Context
 -------|-------------|--------
 `^B—?` | "Get help" … It just opens the key bindings config file. |
-`^B—S` | Browse sessions. |
+`^B—S` | Browse sessions. <br /> This is a tree view. |
 `^B—D` | Detach from session, return to host. |
 `^B—$` | Rename current session. |
 `^C` <br /> `Q` | Abort action. | I.e. renaming, scroll mode.
 `^B—[` | Enter scroll mode. |
 `^B—T` | Display time. (WTF? useless garbage) |
+`RIGHT` | Expand tree node. | Tree view.
+`LEFT` | Collapse tree node. | Tree view.
 ||
 **Windows** ||
-`^B—W` | Browse windows. |
+`^B—W` | Browse windows. <br /> This is a tree view where you can even select panels. |
 `^B—C` | Create new window. |
-? | Delete window. |
+`^B—&` | Kill current window, confirm. |
 `^B—,` | Rename current window. |
 `^B—n` | Go to next window. |
 `^B—p` | Go to previous window. |
