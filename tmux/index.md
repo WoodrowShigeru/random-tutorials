@@ -93,7 +93,7 @@ When toggling the layout, you cycle through predefined layouts. I.e. when there 
 
 > **Note:** <br />
 > Some hotkeys use characters that are not easily available on non-american keyboard layouts. <br />
-> For example, `[^B]—[$]` translates to `[^B]—[SHIFT]+[4]` on some keyboard layouts.
+> For example, `^B—$` translates to `^B—SHIFT+4` on some keyboard layouts.
 
 
 　​
