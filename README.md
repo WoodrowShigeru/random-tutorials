@@ -6,7 +6,7 @@ Here are a bunch of brief tutorials for a selection of topics, intended for peop
 
 - [GPG Encryption Tutorial (for Windows)][gpg_win]
 - [GPG Encryption Tutorial (for Ubuntu 18.04.2)][gpg_ubu]
-- [TMUX][./tmux/index.md]
+- [TMUX](./tmux/index.md)
 
 
 [gpg_win]: ./set_up_gpg_on_windows/index.md
