@@ -131,6 +131,7 @@ Hotkey | Description | Context
 `^B—!` | Outsource current pane as new window. |
 `^B—SPACE` | Toggle layout. |
 `^B—ESC+1` | Specifically select predefined layout #1. (1-5) |
+`^B—UP` <br /> `^B—LEFT` <br /> `^B—DOWN` <br /> `^B—RIGHT` | Navigate panes. |
 
 
 　​

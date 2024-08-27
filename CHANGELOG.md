@@ -1,6 +1,13 @@
 
 # Change Log
 
+## 2024-08-27
+
+* Added hotkeys for "TMUX".
+
+
+　​
+
 ## 2024-07-15
 
 * Added "TMUX".
